@@ -11,19 +11,21 @@ body {
 nav {
   background-color: #26384d;
   justify-content: space-around;
+  height: 50px;
 }
-nav h1 {
-  background-color: #ffffff;
+nav .top {
+  padding-top: 20px;
 }
 nav .justify {
-  background-color: red;
+  font-size: 8px;
+  padding: 20px;
 }
 nav .justify ul {
   list-style: none;
   display: flex;
 }
 nav .justify ul li {
-  margin: 10px;
+  margin: 20px;
 }
 
 .flex {
@@ -40,7 +42,7 @@ nav .justify ul li {
 
 .bandiv {
   background: url("../img/bg-header.png");
-  height: 500px;
+  height: 350px;
   width: 100%;
 }
 
@@ -72,7 +74,6 @@ nav .justify ul li {
 .container {
   width: 80%;
   margin: 0 auto;
-  background-color: red;
   justify-content: center;
 }
 
@@ -110,6 +111,33 @@ nav .justify ul li {
 .beige .color-blue {
   color: #1296D3;
   padding-top: 5px;
+}
+
+.width30 {
+  width: 30%;
+  margin-left: 530px;
+  padding-right: 50px;
+  font-size: 10px;
+}
+.width30 .titre1 {
+  font-size: 10px;
+}
+.width30 .loremclair {
+  color: #cccbcb;
+}
+.width30 .button {
+  font-size: 10px;
+  color: white;
+  background-color: #1296D3;
+  border-radius: 15%;
+  margin-top: 10px;
+  padding: 8px;
+  outline: none;
+}
+
+.widht55 {
+  width: 5;
+  width: 600px;
 }
 
 /*# sourceMappingURL=style.css.map */
