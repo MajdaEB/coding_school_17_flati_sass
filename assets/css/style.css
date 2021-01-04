@@ -1,3 +1,59 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
 
+nav {
+  background-color: #26384d;
+}
+nav .justify {
+  justify-content: space-between;
+}
+nav .justify ul {
+  list-style: none;
+  display: flex;
+}
+nav .justify ul .right {
+  justify-content: space-between;
+  align-items: flex-end;
+  flex: 1;
+}
+
+.flex {
+  display: flex;
+}
+
+.white {
+  color: #FCF4E2;
+}
+
+.height-1 {
+  height: 135px;
+}
+
+.banniere {
+  width: 100%;
+}
+
+.bg-yellow {
+  background-color: #EEEBDC;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 20px;
+  color: #858383;
+  padding-top: 40px;
+}
+.bg-yellow .paddingb-1 {
+  padding-bottom: 20px;
+}
+.bg-yellow .bg-blue {
+  background-color: #1296D3;
+}
+.bg-yellow .color-blue {
+  color: #1296D3;
+}
+.bg-yellow .bold {
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=style.css.map */
